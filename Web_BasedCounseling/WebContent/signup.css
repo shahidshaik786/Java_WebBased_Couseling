@@ -1,0 +1,175 @@
+html
+{ height: 100%;
+  background-color: #C1D699;
+}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+#header{
+	height:90px;
+	width:auto;
+	background-color: #336600;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#heading{
+	position:fixed;
+	font-family:"Lucida Grande";
+	text-align:left;
+	font-size:450%;
+	color: white;
+	height:90px;
+	width: 490px;
+	margin-left: 400px; 
+  	margin-right: auto;
+  	float:left;
+  	background-color: ;
+}
+#usernamepass{
+	position:fixed;
+	float:left;
+	font-family:"Lucida Grande";
+	color: white;
+	font-size:90%;
+	height:90px;
+ 	width: 510px;
+ 	margin-left: 990px; 
+ 	float:left;
+ 	background-color: ;
+}
+#username{
+	border:;
+   	background:;
+   	width: 175px; 
+	height: 20px;
+	font: normal normal normal 1.0em Arial, sans-serif;
+}
+#password{
+	border:;
+   	background:;
+   	width: 165px; 
+	height: 20px;
+	font: normal normal normal 1.0em Arial, sans-serif;
+}
+#loginbutton{
+	width: 4.5em;  
+    height: 1.9em;
+    color: white;
+    background-color: #006600;
+    font-family: Raleway;
+}
+#mainbody{
+	width:auto;
+}
+#textbox1{
+	width: 180px; 
+	height: 30px;
+	font: normal normal normal 2.7em Arial, sans-serif;
+}
+.textbox2{
+	width: 180px; 
+	height: 30px;
+	font: normal normal normal 1.2em Arial, sans-serif;
+}
+.email{
+	width: 300px; 
+	height: 30px;
+	font: normal normal normal 1.2em Arial, sans-serif;
+}
+#centerbody0{
+	position:fixed;
+	float:left;
+	background-color: ;
+	height:740px;
+	width: 490px;
+	margin-left:400px	; 
+  	margin-right: auto;
+}
+#centerbody1{
+	position:fixed;
+	float:left;
+	background-color: ;
+	height:740px;
+	width: 510px;
+	margin-left:990px	; 
+  	margin-right: auto;
+
+}
+#blink{
+	margin-top: 50px;
+	margin-left:100px
+}
+#about{
+	font-family:"Latin Modern Roman Demi";
+	margin-top:20px;
+	font-size: 30px;
+	color: #336600;
+}
+#button{
+    width: 16em;  
+    height: 2.5em;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+#hidden1{
+	visibility: hidden;
+}
+#hidden2{
+	visibility: hidden;
+}
+#hidden3{
+	visibility: hidden;
+}
+#hidden4{
+	visibility: hidden;
+}
+#hidden5{
+	visibility: hidden;
+}
+#hidden6{
+	visibility: hidden;
+}
+#hidden7{
+	visibility: hidden;
+}
+#password_strength{
+	margin-left:5px;
+	font: normal normal normal 0.8em Arial, sans-serif;
+}
+#password_missmatch{
+	margin-left:170px;
+	color:red;
+	font: normal normal normal 0.8em Arial, sans-serif;
+}
+#emailmissmatch{
+	margin-left:5px;
+	color:red;
+	font: normal normal normal 0.8em Arial, sans-serif;
+}
+#clockbox{
+	color:#0066FF;;
+	font: normal normal normal 0.8em Arial, sans-serif;
+}
+#footer{
+	position:fixed;
+	background-color: #C1D699;
+	height:200px;
+	text-align: center;
+	width:auto;
+}
+

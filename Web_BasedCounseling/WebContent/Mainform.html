@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Seat Selection</title>
+<link rel="stylesheet" type="text/css" href="Mainform.css" />
+<script src="Mainform.js" type="text/javascript"></script>
+</head>
+<body id="colorfor"  >
+	<div id="headder"><u>SeatSelection</u><br></div>
+	<br>
+	<h1 id="textarea0" >Enter Hall Ticket Number:</h1>&nbsp;&nbsp;<input  type="text" name="hallticket" onfocus="return hallticketclear()" id="hallticket" /><h2 id="regerror"></h2>
+	<br>
+	<div id="buttonalign"><button  type="submit"  onclick="hellome();hai();" id="button" >Search</button></div><img id="hidden1" height="23px"width="28px" src="Icon-warning.png"/>
+	<br>
+	<br>
+	<div id="headder1"><b>Candidate Details</b><br></div>
+	
+	<form action="./Selection_Servlet" method="post">
+	
+	<table >
+		
+		<th>
+		<tr>
+		<td>
+			<b>Rank:</b>
+			<input type="text" class="textbox" id="regrank" name="regrank"  />
+		</td>
+		</tr>
+		</th>
+		
+		
+		<th>
+		<tr>
+		<td>
+			<b>Hall Ticket Number:</b>&nbsp;&nbsp;
+			<input type="text" class="textbox"  id="reghallticket" name="reghallticket"  />
+		</td>
+		</tr>
+		</th>
+		
+		<th>
+		<tr>
+		<td>
+			<b>Name:</b>
+			<input type="text" class="textbox"  id="regname" name="regname"  />
+		</td>
+		</tr>
+		</th>
+	
+		<th>
+		<tr>
+		<td>
+			<b>Date Of Birth:</b>
+			<input type="text" class="textbox"  id="regdob" name="regdob"  /> 
+		</td>
+		</tr>
+		</th>
+
+		<th>
+		<tr>
+		<td>
+			<b>Gender:</b>
+			<input type="text" class="textbox"  id="reggender" name="reggender"  /> 
+		</td>
+		</tr>
+		</th>
+		
+		<th>
+		<tr>
+		<td>
+			<b>Catagiry:</b>
+			<input type="text" class="textbox" name="regcatagiry" id="regcatagiry"  /> 
+		</td>
+		</tr>
+		</th>	
+	</table>
+	
+	<div id="headder2"><b>Candidate Selection</b><br></div>
+	<table id="table1">
+		
+		<th class="th1">
+		<tr>
+		<td class="td1">
+				<b>College:</b>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select  name="college" id="college" onclick="return optioncheack()">
+  				<option value="0" selected="1">Select College</option>
+  				<option value="Guntur Municipal College">Guntur Municipal College</option>
+  				<option value="Vijayawada Municipal College">Vijayawada Municipal College</option>
+  				<option value="Yellur Municipal College">Yellur Municipal College</option>
+  				<option value="Machilipatnam Municipal College">Machilipatnam Municipal College</option>
+  				<option value="Ongol Municipal College">Ongol Municipal College</option>
+  				<option value="Rajamandri Municipal College">Rajamandri Municipal College</option>
+  				<option value="Tirupathi Municipal College">Tirupathi Municipal College</option>
+  				</select> 	
+				</td>
+		</tr>
+		</th>
+		<th>
+			<tr>	
+				<td class="td1">
+					<b>Course:</b>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<select  name="course" id="course" title="course" onclick="return optioncheack()">
+  				<option value="0" selected="1">Select Course</option>
+  				<option value="Guntur Municipal College">Guntur Municipal College</option>
+  				<option value="Vijayawada Municipal College">Vijayawada Municipal College</option>
+  				<option value="Yellur Municipal College">Yellur Municipal College</option>
+  				<option value="Machilipatnam Municipal College">Machilipatnam Municipal College</option>
+  				<option value="Ongol Municipal College">Ongol Municipal College</option>
+  				<option value="Rajamandri Municipal College">Rajamandri Municipal College</option>
+  				<option value="Tirupathi Municipal College">Tirupathi Municipal College</option>
+  				</select>
+				</td>	
+			</tr>
+		</th>
+	</table>
+	<div id="buttonalign1"><button  type="submit" name="searchbutton" onclick="return cheack()"  id="button2" >Submit</button></div>
+	<img id="hidden2" height="23px"width="28px" src="Icon-warning.png"/>
+	<div id="regerror2"></div><input type="hidden" name="regerror3" id="regerror3" />
+	</form>
+</body>
+</html>

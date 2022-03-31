@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="com/sun/**"/>
+			<accessrule kind="accessible" pattern="com/sun/java/**"/>
+			<accessrule kind="accessible" pattern="sun/font/**"/>
+			<accessrule kind="accessible" pattern="com/sun/java/util/jar/pack/Attribute/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/javax.servlet-api-3.1.0.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/commons-lang-2.6.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/commons-logging-1.1.1.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/hsqldb.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/itextpdf-5.0.6.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/jackcess-2.0.4.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/json_simple-1.1.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/downloads/ucanaccess-2.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Project_web_counseling/12-11-2015/lib/servlet.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/com.sun.jaxb.jar/com.sun.jaxb.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

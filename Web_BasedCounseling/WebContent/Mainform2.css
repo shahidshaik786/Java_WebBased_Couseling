@@ -1,0 +1,202 @@
+html
+{
+	height:100%; 	
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#colorfor{
+	background-color: #339966;
+}
+#headder{
+	top: 0;
+    left: 810px;
+    width: 350px;
+	position:fixed;
+	font-family:"Lucida Grande";
+	color: white;
+	font-size:300%;
+}
+#headder1{
+	top:250px;
+    left: 600px;
+    width: 350px;
+	position:fixed;
+	font-family:"Lucida Grande";
+	font-size:150%;
+}
+#headder2{
+	top:250px;
+    left: 1130px;
+    width: 350px;
+	position:fixed;
+	font-family:"Lucida Grande";
+	font-size:150%;
+}
+#textarea0{
+	position:fixed;
+	top: 100px;
+    left: 740px;
+    width: 350px;
+	font-family:"Lucida Grande";
+	font-size:110%;	
+}
+.textarea1{
+		font-family:"Lucida Grande";
+		font-size:110%;
+	
+}
+#buttonalign{
+    text-align: center;
+    position:fixed;
+	margin-top:110px;
+	margin-left: 900px;
+    }
+#buttonalign1{
+    position:fixed;
+    margin-top:250px;
+	margin-left: 1162px;
+    }
+#button2{
+	width: 10em;  
+    height: 2.5em;
+}
+#hallticket{
+	position:fixed;
+	margin-top: 80px;
+	margin-left: 1020px;
+	margin-right: 0px;
+}
+#button{
+	width: 10em;  
+    height: 2.5em;
+}
+#textbox1{
+	width: 100px; 
+	height: 20px;
+	font: normal normal normal 2.7em Arial, sans-serif;
+}
+.textbox2{
+	width: 100px; 
+	height: 20px;
+	font: normal normal normal 2.7em Arial, sans-serif;
+}
+table {
+	position: fixed;
+	margin-top:130px;
+	margin-left: 500px;
+	width:450px;
+	height:350px;
+    border: 1px solid black;
+}
+th {
+    border: 0px;
+}
+td{
+	padding: 10px;
+}
+
+#table1{
+	position: fixed;
+	margin-top:130px;
+	margin-left: 1000px;
+	width:450px;
+	height:100px;
+    border: 1px solid black;
+}
+.th1{
+    border: 0px;
+}
+.td1{
+	top:10px;
+}
+#submit{
+	width: 10em;  
+    height: 2.5em;
+}
+#regrank{
+	margin-left:155px;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#reghallticket{
+	margin-left:50px;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#regname{
+	margin-left:150px;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#regdob{
+	margin-left:98px;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#reggender{
+	margin-left:140px;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#regcatagiry{
+	margin-left:133px;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#regerror{
+	position:fixed;
+	top: 100px;
+    left: 1200px;
+    width: 110px;
+	font-family:"Lucida Grande";
+	font-size:70%;	
+}
+#amountcatagiry{
+	width: 80px; 
+	height: 25px;
+	font: normal normal normal 1.0em Arial, sans-serif;
+	font-family:"Lucida Grande";
+	color: #cc0000;
+	font-size:150%;
+}
+#amount{
+	width: 120px; 
+	height: 25px;
+	font: normal normal normal 1.2em Arial, sans-serif;
+}
+#rupee{
+	position:fixed;
+	margin-left:1300px;
+	margin-top:205px;
+}
+.textbox{
+	width: 170px; 
+	height: 22px;
+	font: normal normal normal 1.0em Arial, sans-serif;
+}
+#hidden1{
+	visibility: hidden;
+	margin-left: 995px;
+	margin-top: 60px;
+}
+#hidden2{
+	visibility: hidden;
+	margin-left: 1470px;
+	margin-top: 200px;
+}
+#regerror2{
+	margin-left: 1150px;
+	margin-top: 100px;
+	font-family:"Lucida Grande";
+	font-size:110%;
+	Color:red;
+}
